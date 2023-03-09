@@ -13,11 +13,16 @@ function RandomMovie() {
   const randomMovie: Movies = movies[getRandomMovieNumber]
   // GENERATE A RANDOM MOVIE (END)
 
+  function newMovie() {
+    window.location.reload()
+  }
+
   return (
     <div>
       <Link to="/">Home</Link>
       <div className="movies-list">Random Movie</div>
       <Card key={randomMovie.id} movies={randomMovie} />
+      <button onClick={() => newMovie()}>Generate new random movie</button>
     </div>
   )
 }
