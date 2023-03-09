@@ -5,7 +5,7 @@ import { Card } from './components/Card'
 function App() {
   return (
     <div>
-      <div>
+      <div className="movies-list">
         {movies.map((movie) => {
           return <Card key={movie.id} movies={movie} />
         })}

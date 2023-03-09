@@ -19,7 +19,7 @@ export const movies: Movies[] =[
   {
     id: 4,
     title: "Happiest Season",
-    image: "water-lilies.jpg",
+    image: "happiest-season.jpg",
   },
   {
     id: 5,
