@@ -2,6 +2,7 @@ import React from 'react'
 import { movies } from '../data'
 import { Card } from './Card'
 import Movies from '../interfaces/Movies'
+import { Link } from 'react-router-dom'
 
 function RandomMovie() {
   // GENERATE A RANDOM MOVIE (START)
@@ -14,6 +15,7 @@ function RandomMovie() {
 
   return (
     <div>
+      <Link to="/">Home</Link>
       <div className="movies-list">Random Movie</div>
       <Card key={randomMovie.id} movies={randomMovie} />
     </div>
