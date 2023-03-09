@@ -1,9 +1,4 @@
-interface Movies  {
-  id: number;
-  title: string;
-  image: string;
-  genre?: 'action' | 'romance' | 'drama'
-}
+import Movies from "./interfaces/Movies"
 
 export const movies: Movies[] =[
   {
