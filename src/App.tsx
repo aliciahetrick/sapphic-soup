@@ -1,15 +1,16 @@
 import React from 'react'
-import { movies } from './data'
-import { Card } from './components/Card'
+import { Routes, Route } from 'react-router-dom'
+
+import AllMovies from './components/AllMovies'
+import Home from './components/Home'
 
 function App() {
   return (
     <div>
-      <div className="movies-list">
-        {movies.map((movie) => {
-          return <Card key={movie.id} movies={movie} />
-        })}
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/allmovies" element={<AllMovies />}></Route>
+      </Routes>
     </div>
   )
 }
