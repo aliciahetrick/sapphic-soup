@@ -65,13 +65,6 @@ export const movies: Movies[] =[
     genres: ['horror', 'thriller']
   },
   {
-    id: 9,
-    title: "But I'm a Cheerleader",
-    image: "but-im-a-cheerleader.jpg",
-    synopsis: "A naive teenager is sent to rehab camp when her straitlaced parents and friends suspect her of being a lesbian.",
-    genres: ['comedy', 'drama', 'romance']
-  },
-  {
     id: 10,
     title: "The Kids Are All Right",
     image: "the-kids-are-all-right.jpg",
@@ -254,13 +247,6 @@ export const movies: Movies[] =[
     genres: ['comedy', 'drama', 'thriller']
   },
   {
-    id: 35,
-    title: "Side Effects",
-    image: "side-effects.jpg",
-    synopsis: "A young woman's world unravels when a drug prescribed by her psychiatrist has unexpected side effects.",
-    genres: ['drama', 'thriller']
-  },
-  {
     id: 36,
     title: "Jennifer's Body",
     image: "jennifers-body.jpg",
@@ -350,6 +336,20 @@ export const movies: Movies[] =[
     image: "professor-marston.jpg",
     synopsis: "The story of psychologist William Moulton Marston, and his polyamorous relationship with his wife and their mistress who would inspire his creation of the superheroine, Wonder Woman.", 
     genres: ['drama']
+  },
+  {
+    id: 49,
+    title: "But I'm a Cheerleader",
+    image: "but-im-a-cheerleader.jpg",
+    synopsis: "A naive teenager is sent to rehab camp when her straitlaced parents and friends suspect her of being a lesbian.",
+    genres: ['comedy', 'drama', 'romance']
+  },
+  {
+    id: 50,
+    title: "Side Effects",
+    image: "side-effects.jpg",
+    synopsis: "A young woman's world unravels when a drug prescribed by her psychiatrist has unexpected side effects.",
+    genres: ['drama', 'thriller']
   },
 ];
 
