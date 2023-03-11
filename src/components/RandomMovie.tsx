@@ -3,6 +3,7 @@ import { movies } from '../data'
 import { Card } from './Card'
 import Movies from '../interfaces/Movies'
 import { Link } from 'react-router-dom'
+import styled from 'styled-components'
 
 function RandomMovie() {
   useEffect(() => {
@@ -22,14 +23,37 @@ function RandomMovie() {
   }
 
   return (
-    <div className="random-movie-card">
+    <RandomMovieWrapper>
       {/* <div className="random-movie">Random Movie</div> */}
       <Card key={randomMovie.id} movies={randomMovie} />
-      <button onClick={() => newMovie()} className="next-random-movie-button">
-        &gt;
-      </button>
-    </div>
+      <NextRandomMovieButton onClick={() => newMovie()}>&gt;</NextRandomMovieButton>
+    </RandomMovieWrapper>
   )
 }
 
 export default RandomMovie
+
+export const RandomMovieWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8em;
+  margin-top: 14em;
+  gap: 3em;
+`
+
+export const NextRandomMovieButton = styled.button`
+  all: unset;
+  color: rgb(100, 118, 239);
+  background-color: rgb(166, 202, 245);
+  border-radius: 1em;
+  padding: 0.5em;
+  padding-left: 3em;
+  padding-right: 3em;
+  margin: 1em;
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+`

@@ -1,19 +1,46 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import styled from 'styled-components'
 
 function Home() {
   return (
-    <nav className="home-wrapper">
+    <HomeWrapper>
       <Link to="/allMovies" style={{ textDecoration: 'none' }}>
-        <img src="/images/thelma.jpg" className="home-image" />
-        <h2 className="home-title">Browse</h2>
+        <HomeImage src="/images/thelma.jpg" />
+        <HomeTitle>Browse</HomeTitle>
       </Link>
       <Link to="/randomMovie" style={{ textDecoration: 'none' }}>
-        <img src="/images/the-handmaiden.jpg" className="home-image" />
-        <h2 className="home-title">Discover</h2>
+        <HomeImage src="/images/the-handmaiden.jpg" />
+        <HomeTitle>Discover</HomeTitle>
       </Link>
-    </nav>
+    </HomeWrapper>
   )
 }
 
 export default Home
+
+export const HomeWrapper = styled.div`
+  display: flex;
+  gap: 5em;
+  border-radius: 1em;
+  margin-top: 15em;
+  margin-bottom: 4em;
+  justify-content: center;
+  border-radius: 1em;
+`
+
+export const HomeImage = styled.img`
+  object-fit: cover;
+  width: 450px;
+  height: 350px;
+  border-radius: 1.5em;
+`
+
+export const HomeTitle = styled.h2`
+  text-align: center;
+  color: rgb(100, 118, 239);
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+`

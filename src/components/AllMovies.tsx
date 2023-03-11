@@ -2,37 +2,33 @@ import React from 'react'
 import { movies } from '../data'
 import { Card } from './Card'
 import { Link } from 'react-router-dom'
+import styled from 'styled-components'
 
 function AllMovies() {
   return (
-    <main className="all-movies-wrapper">
-      <section className="movies-list">
+    <AllMoviesWrapper>
+      <MoviesList>
         {movies.map((movie) => {
           return <Card key={movie.id} movies={movie} />
         })}
-      </section>
-    </main>
-
-    //   <Cards>
-    //     {allCampuses.map((campus) => {
-    //       return (
-    //         <div key={campus.id}>
-    //           <Link to={`/campuses/${campus.id}`} style={{ textDecoration: 'none' }}>
-    //             <CampusName>{campus.name}</CampusName>
-    //           </Link>
-    //           <ImageAndDeleteWrapper>
-    //             <Link to={`/campuses/${campus.id}`}>
-    //               <img src={`../../${campus.imageUrl}`} className="campus-image" />
-    //             </Link>
-    //             <DeleteButton onClick={() => handleDelete(campus.id)}>X</DeleteButton>
-    //           </ImageAndDeleteWrapper>
-    //         </div>
-    //       )
-    //     })}
-    //   </Cards>
-    // )
-    // </WrapperContent>
+      </MoviesList>
+    </AllMoviesWrapper>
   )
 }
 
 export default AllMovies
+
+export const AllMoviesWrapper = styled.main`
+  display: flex;
+  flex-direction: row;
+`
+
+export const MoviesList = styled.section`
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 5em;
+  margin-bottom: 8em;
+  margin-top: 10em;
+`
