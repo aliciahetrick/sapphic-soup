@@ -195,9 +195,9 @@ export const movies: Movies[] =[
   },
   {
     id: 32,
-    title: "Below Her Mouth",
-    image: "below-her-mouth.jpg",
-    synopsis: "An unexpected affair quickly escalates into a heart-stopping reality for two women whose passionate connection changes their lives forever."
+    title: "Fear Street Trilogy",
+    image: "fear-street-trilogy.jpg",
+    synopsis: "A circle of teenage friends accidentally encounter the ancient evil responsible for a series of brutal murders that have plagued their town for over 300 years. Welcome to Shadyside."
   },
   {
     id: 33,
@@ -307,11 +307,6 @@ export const movies: Movies[] =[
     image: "kajillionaire.jpg",
     synopsis: "A woman's life is turned upside down when her criminal parents invite an outsider to join them on a major heist they're planning."
   },
-  {
-    id: 48,
-    title: "Fear Street Trilogy",
-    image: "fear-street-trilogy.jpg",
-    synopsis: "A circle of teenage friends accidentally encounter the ancient evil responsible for a series of brutal murders that have plagued their town for over 300 years. Welcome to Shadyside."
-  },
+ 
 ];
 
