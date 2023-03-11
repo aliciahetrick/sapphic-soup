@@ -60,8 +60,8 @@ export const MovieSynopsisContainer = styled.div`
 `
 
 export const CardImage = styled.img`
-  width: 300px;
   height: 400px;
+  width: 273.22px;
   object-fit: cover;
   border-radius: 1em;
   background-color: rgb(166, 202, 245);
