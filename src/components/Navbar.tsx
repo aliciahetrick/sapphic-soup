@@ -9,11 +9,11 @@ function Navbar() {
         <Link to="/" style={{ textDecoration: 'none', color: '#961e42' }}>
           Home
         </Link>
-        <Link to="randommovie" style={{ textDecoration: 'none', color: '#961e42' }}>
-          Discover
-        </Link>
         <Link to="/allmovies" style={{ textDecoration: 'none', color: '#961e42' }}>
           browse
+        </Link>
+        <Link to="randommovie" style={{ textDecoration: 'none', color: '#961e42' }}>
+          Discover
         </Link>
       </NavWrapper>
     </div>
