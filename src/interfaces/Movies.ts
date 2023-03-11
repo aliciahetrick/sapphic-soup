@@ -4,5 +4,7 @@ export default interface Movies {
   title: string;
   image: string;
   synopsis: string
-  genre?: 'action' | 'romance' | 'drama'
+  genres?: Genre[]
 }
+
+export type Genre = 'action' | 'comedy' | 'drama' | 'horror' | 'romance' | 'sci-fi' | 'thriller' 
