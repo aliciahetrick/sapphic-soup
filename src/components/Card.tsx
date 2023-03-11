@@ -10,7 +10,6 @@ export function Card({ movies }: Props) {
   const [toggle, setToggle] = useState(false)
 
   function toggleFunc() {
-    console.log('toggle', toggle)
     setToggle(!toggle)
   }
 
@@ -18,7 +17,6 @@ export function Card({ movies }: Props) {
     <div>
       {toggle && (
         <div onClick={() => toggleFunc()}>
-          {/* <CardTitle>{movies.title}</CardTitle> */}
           <MovieSynopsisContainer>
             <CardImage />
             <MovieSynopsis>
@@ -31,7 +29,6 @@ export function Card({ movies }: Props) {
       )}
       {!toggle && (
         <div onClick={() => toggleFunc()}>
-          {/* <CardTitle>{movies.title}</CardTitle> */}
           <CardImage src={`./images/${movies.image}`} alt="card" />
         </div>
       )}
