@@ -6,6 +6,7 @@ import styled from 'styled-components'
 
 function AllMovies() {
   const [selectedMovies, setSelectedMovies] = useState(movies)
+
   function actionButton() {
     let actionMovies = []
     for (let i = 0; i < movies.length; i++) {
