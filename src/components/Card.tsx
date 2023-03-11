@@ -8,8 +8,8 @@ interface Props {
 export function Card({ movies }: Props) {
   return (
     <div>
-      <div>{movies.title}</div>
-      <img src={`./images/${movies.image}`} alt="card" />
+      <img src={`./images/${movies.image}`} alt="card" className="card-image" />
+      <div className="card-title">{movies.title}</div>
     </div>
   )
 }

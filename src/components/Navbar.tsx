@@ -4,7 +4,17 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <div>
-      <p>this is the nav</p>
+      <nav className="nav-wrapper">
+        <Link to="/" style={{ textDecoration: 'none', color: '#fff5fa' }}>
+          Home
+        </Link>
+        <Link to="randommovie" style={{ textDecoration: 'none', color: '#fff5fa' }}>
+          Discover
+        </Link>
+        <Link to="/allmovies" style={{ textDecoration: 'none', color: '#fff5fa' }}>
+          browse
+        </Link>
+      </nav>
     </div>
   )
 }

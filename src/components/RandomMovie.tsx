@@ -18,11 +18,12 @@ function RandomMovie() {
   }
 
   return (
-    <div>
-      <Link to="/">Home</Link>
-      <div className="movies-list">Random Movie</div>
+    <div className="random-movie-card">
+      {/* <div className="random-movie">Random Movie</div> */}
       <Card key={randomMovie.id} movies={randomMovie} />
-      <button onClick={() => newMovie()}>Generate new random movie</button>
+      <button onClick={() => newMovie()} className="next-random-movie-button">
+        &gt;
+      </button>
     </div>
   )
 }
