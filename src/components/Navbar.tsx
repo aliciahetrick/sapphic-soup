@@ -6,13 +6,13 @@ function Navbar() {
   return (
     <div>
       <NavWrapper>
-        <Link to="/" style={{ textDecoration: 'none', color: '#961e42' }}>
+        <Link to="/" style={{ textDecoration: 'none', color: '#FFFFFF' }}>
           Home
         </Link>
-        <Link to="/allmovies" style={{ textDecoration: 'none', color: '#961e42' }}>
+        <Link to="/allmovies" style={{ textDecoration: 'none', color: '#FFFFFF' }}>
           browse
         </Link>
-        <Link to="randommovie" style={{ textDecoration: 'none', color: '#961e42' }}>
+        <Link to="randommovie" style={{ textDecoration: 'none', color: '#FFFFFF' }}>
           Discover
         </Link>
       </NavWrapper>
