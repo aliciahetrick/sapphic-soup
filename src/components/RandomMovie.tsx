@@ -45,8 +45,8 @@ export const RandomMovieWrapper = styled.div`
 
 export const NextRandomMovieButton = styled.button`
   all: unset;
-  color: rgb(100, 118, 239);
-  background-color: rgb(166, 202, 245);
+  color: #961e42;
+  background-color: #ffacae;
   border-radius: 1em;
   padding: 0.5em;
   padding-left: 3em;

@@ -205,24 +205,12 @@ export const movies: Movies[] =[
     image: "first-girl-i-loved.jpg",
     synopsis: "Seventeen-year-old Anne just fell in love with Sasha, the most popular girl at her LA public high school. But when Anne tells her best friend Clifton - who has always harbored a secret crush - he does his best to get in the way."
   },
-  // {
-  //   id: 34,
-  //   title: "The Incredibly True Adventure of Two Girls in Love",
-  //   image: "two-girls-in-love.jpg",
-  //   synopsis: "An adventurous love story between two young women of different social and economic backgrounds who find themselves going through all the typical struggles of a new romance."
-  // },
   {
     id: 34,
     title: "Lizzie",
     image: "lizzie.jpg",
     synopsis: "A psychological thriller based on the infamous 1892 murders of Lizzie Andrew Borden's family."
   },
-  // {
-  //   id: 35,
-  //   title: "Professor Marston & the Wonder Women",
-  //   image: "professor-marston.jpg",
-  //   synopsis: "The story of psychologist William Moulton Marston, and his polyamorous relationship with his wife and their mistress who would inspire his creation of the superheroine, Wonder Woman."
-  // },
   {
     id: 35,
     title: "I Care a Lot",
@@ -307,6 +295,11 @@ export const movies: Movies[] =[
     image: "kajillionaire.jpg",
     synopsis: "A woman's life is turned upside down when her criminal parents invite an outsider to join them on a major heist they're planning."
   },
- 
+  {
+    id: 48,
+    title: "Professor Marston & the Wonder Women",
+    image: "professor-marston.jpg",
+    synopsis: "The story of psychologist William Moulton Marston, and his polyamorous relationship with his wife and their mistress who would inspire his creation of the superheroine, Wonder Woman."
+  },
 ];
 

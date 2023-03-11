@@ -6,13 +6,13 @@ function Navbar() {
   return (
     <div>
       <NavWrapper>
-        <Link to="/" style={{ textDecoration: 'none', color: '#fff5fa' }}>
+        <Link to="/" style={{ textDecoration: 'none', color: '#961e42' }}>
           Home
         </Link>
-        <Link to="randommovie" style={{ textDecoration: 'none', color: '#fff5fa' }}>
+        <Link to="randommovie" style={{ textDecoration: 'none', color: '#961e42' }}>
           Discover
         </Link>
-        <Link to="/allmovies" style={{ textDecoration: 'none', color: '#fff5fa' }}>
+        <Link to="/allmovies" style={{ textDecoration: 'none', color: '#961e42' }}>
           browse
         </Link>
       </NavWrapper>
@@ -33,7 +33,7 @@ export const NavWrapper = styled.nav`
   z-index: 3;
   padding: 3em;
 
-  background-color: rgb(166, 202, 245);
+  background-color: #ffacae;
   font-family: Raleway;
   font-weight: 600;
   font-size: 15px;

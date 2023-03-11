@@ -18,10 +18,11 @@ export function Card({ movies }: Props) {
     <div>
       {toggle && (
         <div onClick={() => toggleFunc()}>
-          <CardTitle>{movies.title}</CardTitle>
+          {/* <CardTitle>{movies.title}</CardTitle> */}
           <MovieSynopsisContainer>
             <CardImage />
             <MovieSynopsis>
+              <CardTitle>{movies.title}</CardTitle>
               <p>♥</p>
               {movies.synopsis}
             </MovieSynopsis>
@@ -30,7 +31,7 @@ export function Card({ movies }: Props) {
       )}
       {!toggle && (
         <div onClick={() => toggleFunc()}>
-          <CardTitle>{movies.title}</CardTitle>
+          {/* <CardTitle>{movies.title}</CardTitle> */}
           <CardImage src={`./images/${movies.image}`} alt="card" />
         </div>
       )}
@@ -45,7 +46,7 @@ export const CardTitle = styled.div`
   text-decoration: none;
   display: flex;
   justify-content: center;
-  color: rgb(100, 118, 239);
+  color: #961e42;
   font-family: Raleway;
   font-weight: 600;
   text-transform: uppercase;
@@ -64,7 +65,7 @@ export const CardImage = styled.img`
   width: 273.22px;
   object-fit: cover;
   border-radius: 1em;
-  background-color: rgb(166, 202, 245);
+  background-color: #ffacae;
 `
 
 export const MovieSynopsis = styled.div`
@@ -75,7 +76,7 @@ export const MovieSynopsis = styled.div`
   font-family: Raleway;
   font-weight: 600;
   /* text-transform: uppercase; */
-  color: rgb(100, 118, 239);
+  color: #961e42;
   max-width: 15em;
   z-index: 1;
 `
