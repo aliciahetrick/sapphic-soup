@@ -17,7 +17,13 @@ export function Card({ movies }: Props) {
     <div>
       {toggle && (
         <div onClick={() => toggleFunc()}>
-          <img className="card-image"></img>
+          <div className="movie-synopsis-container">
+            <img className="card-image" />
+            <div className="movie-synopsis">
+              <p>♥</p>
+              {movies.synopsis}
+            </div>
+          </div>
           <div className="card-title">{movies.title}</div>
         </div>
       )}
