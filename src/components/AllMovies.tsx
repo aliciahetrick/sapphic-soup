@@ -7,18 +7,18 @@ import styled from 'styled-components'
 function AllMovies() {
   const [selectedMovies, setSelectedMovies] = useState(movies)
 
-  function actionButton() {
-    let actionMovies = []
+  function filterMovies(type: any) {
+    let filteredMovies = []
     for (let i = 0; i < movies.length; i++) {
-      if (movies[i].genres?.includes('action')) {
-        actionMovies.push(movies[i])
+      if (movies[i].genres?.includes(type)) {
+        filteredMovies.push(movies[i])
       }
     }
-    setSelectedMovies(actionMovies)
+    setSelectedMovies(filteredMovies)
   }
   return (
     <Wrapper>
-      <div onClick={() => actionButton()}>Action</div>
+      <div onClick={() => filterMovies('action')}>Action</div>
       <AllMoviesWrapper>
         <MoviesList>
           {selectedMovies.map((movie) => {
