@@ -99,6 +99,8 @@ body {
 
 .card-title {
   all: unset;
+  /* max-width: 300px;
+  text-align: center; */
   text-decoration: none;
   display: flex;
   justify-content: center;

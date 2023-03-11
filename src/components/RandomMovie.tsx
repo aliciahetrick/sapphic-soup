@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { movies } from '../data'
 import { Card } from './Card'
 import Movies from '../interfaces/Movies'
 import { Link } from 'react-router-dom'
 
 function RandomMovie() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   // GENERATE A RANDOM MOVIE (START)
   function getRandomMovieNumberFunc(min: number, max: number): number {
     return Math.floor(Math.random() * (max - min) + min)

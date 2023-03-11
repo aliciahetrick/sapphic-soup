@@ -157,5 +157,161 @@ export const movies: Movies[] =[
     image: "booksmart.jpg",
     synopsis: "On the eve of their high-school graduation, two academic superstars and best friends realize they should have worked less and played more. Determined not to fall short of their peers, the girls try to cram four years of fun into one night."
   },
-
+  {
+    id: 26,
+    title: "Saving Face",
+    image: "saving-face.jpg",
+    synopsis: "A gay Chinese-American and her traditionalist mother are reluctant to go public with secret loves that clash against cultural expectations."
+  },
+  {
+    id: 27,
+    title: "Do Revenge",
+    image: "do-revenge.jpg",
+    synopsis: "Drea and Eleanor agree to go after one another's bullies."
+  },
+  {
+    id: 28,
+    title: "Ammonite",
+    image: "ammonite.jpg",
+    synopsis: "1840s England, acclaimed but overlooked fossil hunter Mary Anning and a young woman sent to convalesce by the sea develop an intense relationship, altering both of their lives forever."
+  },
+  {
+    id: 29,
+    title: "Princess Cyd",
+    image: "princess-cyd.jpg",
+    synopsis: "A 16-year-old girl visits her aunt in Chicago for the summer. While there, she falls for another girl, and she and her aunt challenge each other's sex and spirit."
+  },
+  {
+    id: 30,
+    title: "The Miseducation of Cameron Post",
+    image: "cameron-post.jpg",
+    synopsis: "In 1993, a teenage girl is forced into a gay conversion therapy center by her conservative guardians."
+  },
+  {
+    id: 31,
+    title: "I Can't Think Straight",
+    image: "think-straight.jpg",
+    synopsis: "A young woman engaged to be married finds her life changed forever when she meets her best friend's girlfriend."
+  },
+  {
+    id: 32,
+    title: "Below Her Mouth",
+    image: "below-her-mouth.jpg",
+    synopsis: "An unexpected affair quickly escalates into a heart-stopping reality for two women whose passionate connection changes their lives forever."
+  },
+  {
+    id: 33,
+    title: "First Girl I Loved",
+    image: "first-girl-i-loved.jpg",
+    synopsis: "Seventeen-year-old Anne just fell in love with Sasha, the most popular girl at her LA public high school. But when Anne tells her best friend Clifton - who has always harbored a secret crush - he does his best to get in the way."
+  },
+  // {
+  //   id: 34,
+  //   title: "The Incredibly True Adventure of Two Girls in Love",
+  //   image: "two-girls-in-love.jpg",
+  //   synopsis: "An adventurous love story between two young women of different social and economic backgrounds who find themselves going through all the typical struggles of a new romance."
+  // },
+  {
+    id: 34,
+    title: "Lizzie",
+    image: "lizzie.jpg",
+    synopsis: "A psychological thriller based on the infamous 1892 murders of Lizzie Andrew Borden's family."
+  },
+  // {
+  //   id: 35,
+  //   title: "Professor Marston & the Wonder Women",
+  //   image: "professor-marston.jpg",
+  //   synopsis: "The story of psychologist William Moulton Marston, and his polyamorous relationship with his wife and their mistress who would inspire his creation of the superheroine, Wonder Woman."
+  // },
+  {
+    id: 35,
+    title: "I Care a Lot",
+    image: "i-care-a-lot.jpg",
+    synopsis: "A crooked legal guardian who drains the savings of her elderly wards meets her match when a woman she tries to swindle turns out to be more than she first appears."
+  },
+  {
+    id: 35,
+    title: "Side Effects",
+    image: "side-effects.jpg",
+    synopsis: "A young woman's world unravels when a drug prescribed by her psychiatrist has unexpected side effects."
+  },
+  {
+    id: 36,
+    title: "Jennifer's Body",
+    image: "jennifers-body.jpg",
+    synopsis: "A newly-possessed high-school cheerleader turns into a succubus who specializes in killing her male classmates. Can her best friend put an end to the horror?"
+  },
+  {
+    id: 37,
+    title: "Gia",
+    image: "gia.jpg",
+    synopsis: "The story of the life of Gia Carangi, a top fashion model from the late 1970s, from her meteoric rise to the forefront of the modeling industry, to her untimely death."
+  },
+  {
+    id: 38,
+    title: "A Simple Favor",
+    image: "a-simple-favor.jpg",
+    synopsis: "Stephanie is a single mother with a parenting vlog who befriends Emily, a secretive upper-class woman who has a child at the same elementary school. When Emily goes missing, Stephanie takes it upon herself to investigate."
+  },
+  {
+    id: 39,
+    title: "All Cheerleaders Die",
+    image: "all-cheerleaders-die.jpg",
+    synopsis: "A rebel girl signs up a group of cheerleaders to help her take down the captain of their high school football team, but a supernatural turn of events thrusts the girls into a different battle."
+  },
+  {
+    id: 40,
+    title: "Novitiate",
+    image: "novitate.jpg",
+    synopsis: "Set in the early 1960s and during the era of Vatican II, a young woman in training to become a nun struggles with issues of faith, the changing church and sexuality."
+  },
+  {
+    id: 41,
+    title: "Kiss Me",
+    image: "kiss-me.jpg",
+    synopsis: "A young woman engaged to be married finds herself in an affair with her soon-to-be stepmother's lesbian daughter."
+  },
+  {
+    id: 42,
+    title: "Fingersmith",
+    image: "fingersmith.jpg",
+    synopsis: "In Victorian England, Sue, a young thief, participates in a scam to defraud a rich heiress by becoming her maid. Things take an unexpected turn and Sue's plan goes horribly wrong."
+  },
+  {
+    id: 43,
+    title: "The Duke of Burgundy",
+    image: "burgundy.jpg",
+    synopsis: "A woman who studies butterflies and moths tests the limits of her relationship with her lesbian lover."
+  },
+  {
+    id: 44,
+    title: "Lovesong",
+    image: "lovesong.jpg",
+    synopsis: "The relationship between two friends deepens during an impromptu road trip."
+  },
+  {
+    id: 45,
+    title: "The Feels",
+    image: "the-feels.jpg",
+    synopsis: "A lesbian bachelorette weekend goes awry when one of the brides admits she's never had an orgasm."
+  },
+  {
+    id: 46,
+    title: "Bodies Bodies Bodies",
+    image: "bodies.jpg",
+    synopsis: "When a group of rich 20-somethings plan a hurricane party at a remote family mansion, a party game turns deadly in this fresh and funny look at backstabbing, fake friends, and one party gone very, very wrong."
+  },
+  {
+    id: 47,
+    title: "Kajillionaire",
+    image: "kajillionaire.jpg",
+    synopsis: "A woman's life is turned upside down when her criminal parents invite an outsider to join them on a major heist they're planning."
+  },
+  {
+    id: 48,
+    title: "Fear Street Trilogy",
+    image: "fear-street-trilogy.jpg",
+    synopsis: "A circle of teenage friends accidentally encounter the ancient evil responsible for a series of brutal murders that have plagued their town for over 300 years. Welcome to Shadyside."
+  },
 ];
+
