@@ -51,5 +51,5 @@ export const HomeSubtitle = styled.h2`
   font-family: Raleway;
   font-weight: 800;
   font-size: 20px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 `
