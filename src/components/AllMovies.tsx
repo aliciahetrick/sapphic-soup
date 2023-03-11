@@ -3,11 +3,12 @@ import { movies } from '../data'
 import { Card } from './Card'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import { Genre } from '../interfaces/Movies'
 
 function AllMovies() {
   const [selectedMovies, setSelectedMovies] = useState(movies)
 
-  function filterMovies(genre: any) {
+  function filterMovies(genre: Genre | 'all') {
     if (genre === 'all') {
       setSelectedMovies(movies)
     } else {
