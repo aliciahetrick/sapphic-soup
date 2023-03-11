@@ -82,6 +82,7 @@ export const Divider = styled.div`
 export const AllMoviesWrapper = styled.main`
   display: flex;
   flex-direction: row;
+  justify-content: center;
 `
 
 export const MoviesList = styled.section`
