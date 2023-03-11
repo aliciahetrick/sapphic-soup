@@ -7,10 +7,10 @@ import styled from 'styled-components'
 function AllMovies() {
   const [selectedMovies, setSelectedMovies] = useState(movies)
 
-  function filterMovies(type: any) {
+  function filterMovies(genre: any) {
     let filteredMovies = []
     for (let i = 0; i < movies.length; i++) {
-      if (movies[i].genres?.includes(type)) {
+      if (movies[i].genres?.includes(genre)) {
         filteredMovies.push(movies[i])
       }
     }
