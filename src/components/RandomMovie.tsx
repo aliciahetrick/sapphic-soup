@@ -24,7 +24,6 @@ function RandomMovie() {
 
   return (
     <RandomMovieWrapper>
-      {/* <div className="random-movie">Random Movie</div> */}
       <Card key={randomMovie.id} movies={randomMovie} />
       <NextRandomMovieButton onClick={() => newMovie()}>&gt;</NextRandomMovieButton>
     </RandomMovieWrapper>
@@ -56,5 +55,4 @@ export const NextRandomMovieButton = styled.button`
   font-weight: 600;
   font-size: 15px;
   text-transform: uppercase;
-  /* border: 2px solid #ffacae; */
 `
