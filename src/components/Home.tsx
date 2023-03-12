@@ -9,8 +9,8 @@ function Home() {
   return (
     <HomeWrapper>
       <HomeTitle>Sapphic Soup</HomeTitle>
-      <HomeImage src="/images/soup.png" />
       <HomeSubtitle>LGBT movie recommendations that warm your soul.</HomeSubtitle>
+      <HomeImage src="/images/soup.jpg" />
     </HomeWrapper>
   )
 }
@@ -31,9 +31,9 @@ export const HomeWrapper = styled.div`
 
 export const HomeImage = styled.img`
   object-fit: cover;
-  width: 300px;
+  width: 500px;
   height: auto;
-  /* border-radius: 1.5em; */
+  border-radius: 1.5em;
 `
 
 export const HomeTitle = styled.h2`
@@ -41,15 +41,16 @@ export const HomeTitle = styled.h2`
   color: #961e42;
   font-family: Raleway;
   font-weight: 800;
-  font-size: 64px;
+  font-size: 66px;
   text-transform: uppercase;
 `
 
 export const HomeSubtitle = styled.h2`
+  margin-top: -1em;
   text-align: center;
   color: #961e42;
   font-family: Raleway;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 19px;
   /* text-transform: uppercase; */
 `
