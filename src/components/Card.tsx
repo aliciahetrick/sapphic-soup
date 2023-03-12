@@ -63,6 +63,8 @@ export const CardImage = styled.img`
   object-fit: cover;
   border-radius: 1em;
   background-color: #f8c0c1;
+  border-bottom: 10px solid #f4a5a6;
+  border-right: 10px solid #f4a5a6;
 `
 
 export const MovieSynopsis = styled.div`

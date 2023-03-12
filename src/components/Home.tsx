@@ -20,7 +20,7 @@ export default Home
 export const HomeWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  /* gap: 5em; */
+  gap: 1em;
   border-radius: 1em;
   margin-top: 15em;
   margin-bottom: 4em;

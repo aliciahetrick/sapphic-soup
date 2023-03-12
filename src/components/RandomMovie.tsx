@@ -45,7 +45,7 @@ export const RandomMovieWrapper = styled.div`
 
 export const NextRandomMovieButton = styled.button`
   all: unset;
-  color: #961e42;
+  color: white;
   background-color: #ffacae;
   border-radius: 1em;
   padding: 0.5em;
@@ -56,4 +56,5 @@ export const NextRandomMovieButton = styled.button`
   font-weight: 600;
   font-size: 15px;
   text-transform: uppercase;
+  /* border: 2px solid #ffacae; */
 `
