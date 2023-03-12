@@ -34,6 +34,8 @@ export const HomeImage = styled.img`
   width: 500px;
   height: auto;
   border-radius: 1.5em;
+  border-bottom: 10px solid #f4a5a6;
+  border-right: 10px solid #f4a5a6;
 `
 
 export const HomeTitle = styled.h2`
