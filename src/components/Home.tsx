@@ -9,6 +9,7 @@ function Home() {
   return (
     <HomeWrapper>
       <HomeTitle>Sapphic Soup</HomeTitle>
+      <HomeTitle2>Sapphic Soup</HomeTitle2>
       <HomeSubtitle>LGBT movie recommendations that warm your soul.</HomeSubtitle>
       <HomeImage src="/images/soup.jpg" />
     </HomeWrapper>
@@ -40,10 +41,19 @@ export const HomeImage = styled.img`
 
 export const HomeTitle = styled.h2`
   text-align: center;
+  color: #f4a5a6;
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 66px;
+  text-transform: uppercase;
+`
+export const HomeTitle2 = styled.h2`
+  text-align: center;
   color: #961e42;
   font-family: Raleway;
   font-weight: 800;
   font-size: 66px;
+  margin-top: -1.8em;
   text-transform: uppercase;
 `
 
