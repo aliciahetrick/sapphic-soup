@@ -4,6 +4,7 @@ import { Card } from './Card'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { Genre } from '../interfaces/Movies'
+import { devices } from './devices'
 
 function AllMovies() {
   const [selectedMovies, setSelectedMovies] = useState(movies)
@@ -63,6 +64,9 @@ export const FilterMoviesWrapper = styled.main`
   flex-direction: row;
   justify-content: center;
   gap: 1em;
+  @media ${devices.mobileM} {
+    flex-wrap: wrap;
+  }
 `
 
 export const FilteredMovie = styled.div`

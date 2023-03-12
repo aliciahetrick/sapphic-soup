@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import { devices } from './devices'
 
 function Home() {
   useEffect(() => {
@@ -28,6 +29,9 @@ export const HomeWrapper = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 1em;
+  @media ${devices.mobileM} {
+    margin-top: 20em;
+  }
 `
 
 export const HomeImage = styled.img`
@@ -37,6 +41,10 @@ export const HomeImage = styled.img`
   border-radius: 1.5em;
   border-bottom: 10px solid #f4a5a6;
   border-right: 10px solid #f4a5a6;
+  @media ${devices.mobileM} {
+    width: 300px;
+    height: auto;
+  }
 `
 
 export const HomeTitle = styled.h2`
@@ -46,6 +54,10 @@ export const HomeTitle = styled.h2`
   font-weight: 800;
   font-size: 66px;
   text-transform: uppercase;
+  @media ${devices.mobileM} {
+    margin-top: -2em;
+    font-size: 35px;
+  }
 `
 export const HomeTitle2 = styled.h2`
   text-align: center;
@@ -55,6 +67,9 @@ export const HomeTitle2 = styled.h2`
   font-size: 66px;
   margin-top: -1.8em;
   text-transform: uppercase;
+  @media ${devices.mobileM} {
+    display: none;
+  }
 `
 
 export const HomeSubtitle = styled.h2`
@@ -65,4 +80,8 @@ export const HomeSubtitle = styled.h2`
   font-weight: 800;
   font-size: 19px;
   /* text-transform: uppercase; */
+  @media ${devices.mobileM} {
+    /* margin-top: -2em; */
+    font-size: 10px;
+  }
 `
